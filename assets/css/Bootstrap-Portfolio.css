@@ -30,17 +30,6 @@ nav{
     padding:0;
 }
 
-#github{
-    position: absolute;
-    bottom: 0px;
-    right: 2px;
-}
-
-#linkedin{
-    position: absolute;
-    bottom: 0px;
-    right: 2px;
-}
 
 .bio-box{
     width: 960px;
