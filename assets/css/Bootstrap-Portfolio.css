@@ -24,10 +24,22 @@ nav{
     color: rgba(255, 255 ,255, 1);
     border:none;
     font-size:30px;
-}
+} 
 
 .nav-link{
     padding:0;
+}
+
+#github{
+    position: absolute;
+    bottom: 0px;
+    right: 2px;
+}
+
+#linkedin{
+    position: absolute;
+    bottom: 0px;
+    right: 2px;
 }
 
 .bio-box{
@@ -36,12 +48,38 @@ nav{
     border: 1px solid #dddddd; 
     border: 1px solid #dddddd; 
     margin: 20px auto;
-    padding: 30px;
+    padding: 35px;
+}
+
+.bio-subbox{
+    height:30px;
+}
+
+.bio-text::first-letter{
+    color: rgb(77, 74, 74);
+    float: left;
+    font-family: Georgia;
+    font-size: 35px;
+    line-height: 20px;
+    padding-right: 2px;
+    padding-left: 0px;
+    padding-top: 3px;
 }
 
 #profile-image{
    margin:0 auto;
 }
 
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+footer{
+    background-color:#666666;
+    color: #dddddd;
+    height: 70px;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+}
 
