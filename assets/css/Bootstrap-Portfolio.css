@@ -26,5 +26,22 @@ nav{
     font-size:30px;
 }
 
+.nav-link{
+    padding:0;
+}
+
+.bio-box{
+    width: 960px;
+    background-color:#ffffff;
+    border: 1px solid #dddddd; 
+    border: 1px solid #dddddd; 
+    margin: 20px auto;
+    padding: 30px;
+}
+
+#profile-image{
+   margin:0 auto;
+}
+
 
 
