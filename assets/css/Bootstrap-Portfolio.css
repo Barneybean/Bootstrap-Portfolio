@@ -1,0 +1,30 @@
+body{
+/* style.css is not located in same folder as html */
+    background: url("../images/background.png");
+    background-repeat: repeat;
+    margin:0px;
+    color:rgba(119, 119 ,119, 1);
+    height: 100%;
+}
+
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    background: rgba(255, 255 ,255, 1);
+    border-bottom: 2px solid #cccccc;
+}
+.container{
+    max-width: 960px;
+}
+
+.btn-primary{
+    background-color: #4aaaa5;
+    color: rgba(255, 255 ,255, 1);
+    border:none;
+    font-size:30px;
+}
+
+
+
