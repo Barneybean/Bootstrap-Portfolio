@@ -35,6 +35,7 @@ nav{
 
 /* main boddy */
 .bio-box{
+    max-width: 100%;
     width: 960px;
     background-color:#ffffff;
     border: 1px solid #dddddd; 
@@ -56,6 +57,11 @@ nav{
     padding-right: 2px;
     padding-left: 0px;
     padding-top: 3px;
+}
+
+.media img{
+    max-height: 80%;
+    max-width: 80%;
 }
 
 #profile-image{
@@ -99,4 +105,29 @@ h3{
     color: #ffffff;
     padding: 4px;
     text-align: center;
+}
+
+@media screen and (max-width:870px){
+    .btn-primary{
+        font-size:20px;
+    }
+    .aboutme{
+        font-size:20px;
+    }
+    .media img{
+        height:100px;
+        width: 90px;
+    }
+}
+@media screen and (max-width:610px){
+    .btn-primary{
+        font-size:10px;
+    }
+    .aboutme{
+        font-size:15px;
+    }
+    .media img{
+        height:100px;
+        width: 90px;
+    }
 }
