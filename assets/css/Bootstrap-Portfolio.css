@@ -33,6 +33,12 @@ nav{
     padding:0;
 }
 
+.navbar-collapse{
+    position: relative;
+    z-index: 1;
+    color:#666666;
+}
+
 /* main boddy */
 .bio-box{
     max-width: 100%;
@@ -59,10 +65,6 @@ nav{
     padding-top: 3px;
 }
 
-.media img{
-    max-height: 80%;
-    max-width: 80%;
-}
 
 #profile-image{
    margin:0 auto;
@@ -105,6 +107,10 @@ h3{
     color: #ffffff;
     padding: 4px;
     text-align: center;
+}
+
+h6{
+    line-height: 70px;
 }
 
 @media screen and (max-width:870px){
