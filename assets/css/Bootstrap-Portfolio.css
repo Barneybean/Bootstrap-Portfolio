@@ -54,7 +54,7 @@ nav{
     height:30px;
 }
 
-.media p::first-letter{
+.media #firstP::first-letter{
     color: rgb(77, 74, 74);
     float: left;
     font-family: Georgia;
