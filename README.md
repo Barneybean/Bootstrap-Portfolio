@@ -1,6 +1,6 @@
 # Chunjin Gao Portfolio
 
-Deployed Site: https://barneybean.github.io/.
+Deployed Site: https://barneybean.github.io/Bootstrap-Portfolio/.
 
 This is the portfolio for Chunjin (WIlliam) Gao.
 
